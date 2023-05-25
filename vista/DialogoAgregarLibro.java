@@ -1,4 +1,4 @@
-package Caso_Biblioteca.vista;
+package vista;
 
 import javax.swing.JButton;
 import javax.swing.JDialog;

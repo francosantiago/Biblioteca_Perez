@@ -1,4 +1,4 @@
-package Caso_Biblioteca.modelo;
+package Modelo;
 
 public class Libro
 {

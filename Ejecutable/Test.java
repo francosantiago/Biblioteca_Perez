@@ -1,8 +1,8 @@
-package Caso_Biblioteca.ejecutable;
+package Ejecutable;
 
-import Caso_Biblioteca.controlador.Controlador;
-import Caso_Biblioteca.modelo.Biblioteca;
-import Caso_Biblioteca.vista.VentanaPrincipal;
+import Controlador.controlador;
+import Modelo.Biblioteca;
+import vista.VentanaPrincipal;
 
 public class Test 
 {
@@ -10,7 +10,7 @@ public class Test
     {
         VentanaPrincipal miVentana = new VentanaPrincipal();
         Biblioteca miBiblioteca = new Biblioteca();
-        Controlador miControlador = new Controlador(miVentana, miBiblioteca);
+        controlador miControlador = new controlador(miVentana, miBiblioteca);
     }
 
 }

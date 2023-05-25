@@ -1,11 +1,10 @@
-package Caso_Biblioteca.controlador;
-
+package Controlador;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import Caso_Biblioteca.modelo.Biblioteca;
-import Caso_Biblioteca.vista.VentanaPrincipal;
+import Modelo.Biblioteca;
+import vista.VentanaPrincipal;
 
 public class controlador implements ActionListener
 {
@@ -20,7 +19,7 @@ public class controlador implements ActionListener
     //------------------
 
     //Constructor
-    public Controlador(VentanaPrincipal pVenPrin, Biblioteca pBiblio)
+    public controlador(VentanaPrincipal pVenPrin, Biblioteca pBiblio)
     {
         this.venPrin = pVenPrin;
         this.biblioteca= pBiblio;
