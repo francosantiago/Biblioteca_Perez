@@ -1,4 +1,4 @@
-package vista;
+package CasoBiblioteca.vista;
 
 import java.awt.Color;
 import javax.swing.BorderFactory;
@@ -14,6 +14,9 @@ public class PanelOperaciones extends JPanel
     private JButton btAgregarColeccion;
     private JButton btSalir;
 
+    
+
+    
     public PanelOperaciones()
     {
         this.setLayout(null);
@@ -21,7 +24,7 @@ public class PanelOperaciones extends JPanel
 
         btAgregarLibro = new JButton("Agregar Libro");
         btAgregarLibro.setBounds(105,20,170,20);
-        btAgregarLibro.setActionCommand("AgregarLibro");
+        btAgregarLibro.setActionCommand("agregarLibro");
         this.add(btAgregarLibro);
 
         btAgregarColeccion = new JButton("Agregar a coleccion");
@@ -31,7 +34,7 @@ public class PanelOperaciones extends JPanel
 
         btSalir = new JButton("Salir");
         btSalir.setBounds(105,80,170,20); 
-        btSalir.setActionCommand("Salir");
+        btSalir.setActionCommand("salir");
         this.add(btSalir);
 
         TitledBorder borde = BorderFactory.createTitledBorder("Operaciones");

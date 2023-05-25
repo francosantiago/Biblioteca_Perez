@@ -1,21 +1,20 @@
-package Modelo;
+package CasoBiblioteca.modelo;
 
 public class Libro
 {
     protected String nombreLib;
-    protected int annioLib;
+    protected int annooLib;
     protected String autor;
     protected boolean edicionLujo;
 
-    public Libro(String nom, String aut, int annio)
+    public Libro(String nom, String aut, int annio )
     {
         this.nombreLib = nom;
         this.autor = aut;
-        this.annioLib = annio;
+        this.annooLib = annio;
     }
-
     public String toString()
     {
-        return("-Nombre: " + nombreLib + "\n-Autor: " + autor + "\n-Año de edición: " + annioLib + "\n-Edicion de lujo:" + edicionLujo);
+        return ("Nombre: " + nombreLib + "\nAutor: " + autor + "\nAño de edición: " + annooLib + "Edición de lujo: "  + edicionLujo);
     }
 }

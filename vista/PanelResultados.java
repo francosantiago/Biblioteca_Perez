@@ -1,4 +1,4 @@
-package vista;
+package CasoBiblioteca.vista;
 
 import java.awt.Color;
 import javax.swing.BorderFactory;
@@ -11,6 +11,9 @@ public class PanelResultados extends JPanel
 {
     private JTextArea taResultado;
     private JScrollPane spResultado;
+
+    
+
    
     public PanelResultados()
     {

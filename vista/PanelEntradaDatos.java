@@ -1,4 +1,4 @@
-package vista;
+package CasoBiblioteca.vista;
 
 import java.awt.Color;
 import javax.swing.BorderFactory;
@@ -9,10 +9,13 @@ import javax.swing.border.TitledBorder;
 
 public class PanelEntradaDatos extends JPanel
 {
+    
     private JLabel lbLibros;
     private JLabel lbColeccion;
     public JComboBox cbLibros;
     public JComboBox cbColeccion;
+
+
     
     public PanelEntradaDatos()
     {
@@ -44,6 +47,7 @@ public class PanelEntradaDatos extends JPanel
         this.setBorder(borde);
     }
 
+    //Metodos de acceso
     public String getLibro()
     {
         return (String) cbLibros.getSelectedItem();  
@@ -63,5 +67,9 @@ public class PanelEntradaDatos extends JPanel
     {
         return cbColeccion.getSelectedIndex();
     }
-    
+
+    public void setEmpleado(String lib)
+    {
+        cbLibros.addItem(lib);
+    }
 }

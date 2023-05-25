@@ -1,4 +1,4 @@
-package vista;
+package CasoBiblioteca.vista;
 
 import javax.swing.JFrame;
 
@@ -8,8 +8,8 @@ public class VentanaPrincipal extends JFrame
     public PanelEntradaDatos miPanelEntradaDatos;
     public PanelOperaciones miPanelOperaciones;
     public PanelResultados miPanelResultados;
-    public DialogoCrearColeccion miColeccion;
-    public DialogoCrearLibro miLibro;
+    public DialogoAgregarAColeccion miColeccion;
+    public DialogoAgregarLibro miLibro;
 
     
     
@@ -34,7 +34,7 @@ public class VentanaPrincipal extends JFrame
         this.add(miPanelResultados);
 
         
-        this.setTitle("BIBLIOTECA SR. PÉREZ");
+        this.setTitle("Biblioteca Sr. Pérez");
         this.setSize(400,600);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -43,12 +43,12 @@ public class VentanaPrincipal extends JFrame
     }
     public void crearDialogoAgregarColeccion()
     {
-        miColeccion = new DialogoCrearColeccion();
+        miColeccion = new DialogoAgregarAColeccion();
     }
 
     
     public void crearDialogoAgregarLibro()
     {
-        miLibro = new DialogoCrearLibro();
+        miLibro = new DialogoAgregarLibro();
     }
 }
