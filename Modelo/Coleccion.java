@@ -1,7 +1,5 @@
 package Modelo;
 
-import java.util.ArrayList;
-
 public class Coleccion extends Libro
 {
     private String nomColeccion;
