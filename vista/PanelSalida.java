@@ -7,11 +7,13 @@ import javax.swing.JScrollPane;
 import java.awt.Color;
 import java.awt.Font;
 
-public class PanelSalida extends JPanel {
+public class PanelSalida extends JPanel 
+{
         public static JTextArea taResultados;
         public static JScrollPane spResultados;
 
-        public PanelSalida() {
+        public PanelSalida() 
+        {
                 taResultados = new JTextArea();
                 taResultados.setFont(new Font("Consolas", Font.PLAIN, 16));
                 taResultados.setForeground(Color.BLACK);
@@ -23,7 +25,7 @@ public class PanelSalida extends JPanel {
                 spResultados.setBounds(9, 15, 512, 130);
 
                 this.setLayout(null);
-                this.setBackground(Color.decode("#eac435"));
+                this.setBackground(Color.decode("#e89609"));
                 this.setVisible(true);
                 this.add(spResultados);
         }

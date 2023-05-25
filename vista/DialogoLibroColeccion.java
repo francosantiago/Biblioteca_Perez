@@ -10,7 +10,8 @@ import java.awt.event.ActionListener;
 import java.awt.Color;
 import java.awt.Font;
 
-public class DialogoLibroColeccion extends JDialog {
+public class DialogoLibroColeccion extends JDialog 
+{
         private JLabel lbNombreLibro;
         private static JTextField tfNombreLibro;
         private JLabel lbNombreAutores;
@@ -27,7 +28,8 @@ public class DialogoLibroColeccion extends JDialog {
         private static JTextField tfNumeroColeccion;
         public JButton btnAgregarLibro;
 
-        public DialogoLibroColeccion() {
+        public DialogoLibroColeccion() 
+        {
                 lbNombreLibro = new JLabel("Nombre =");
                 lbNombreLibro.setBounds(10, 20, 140, 20);
 
@@ -102,39 +104,50 @@ public class DialogoLibroColeccion extends JDialog {
                 this.add(btnAgregarLibro);
         }
 
-        public static String getTfNombreLibro() {
+        public static String getTfNombreLibro() 
+        {
                 return tfNombreLibro.getText();
         }
 
-        public static String getTfNombreAutores() {
+        public static String getTfNombreAutores() 
+        {
                 return tfNombreAutores.getText();
         }
 
-        public static String getTfAnioEdicion() {
+        public static String getTfAnioEdicion() 
+        {
                 return tfAnioEdicion.getText();
         }
 
-        public static boolean getRbLibroDeLujo() {
-                if (rbEsLibroDeLujo.isSelected()) {
+        public static boolean getRbLibroDeLujo() 
+        {
+                if (rbEsLibroDeLujo.isSelected()) 
+                {
                         return true;
-                } else {
+                } 
+                else 
+                {
                         return false;
                 }
         }
 
-        public static String getTfNombreColeccion() {
+        public static String getTfNombreColeccion() 
+        {
                 return tfNombreColeccion.getText();
         }
 
-        public static String getTfNumeroColeccion() {
+        public static String getTfNumeroColeccion() 
+        {
                 return tfNumeroColeccion.getText();
         }
 
-        public void agregarOyenteBoton(ActionListener al) {
+        public void agregarOyenteBoton(ActionListener al) 
+        {
                 btnAgregarLibro.addActionListener(al);
         }
 
-        public void cerrarDialogoAgregarJugador() {
+        public void cerrarDialogoAgregarJugador() 
+        {
                 this.dispose();
         }
 }

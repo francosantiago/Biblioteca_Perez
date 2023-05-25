@@ -55,7 +55,7 @@ public class PanelProceso extends JPanel {
                 btnSalir.setActionCommand("cerrarVentana");
 
                 this.setLayout(null);
-                this.setBackground(Color.decode("#eac435"));
+                this.setBackground(Color.decode("#c47f06"));
                 this.setVisible(true);
                 this.add(btnCrearLibro);
                 this.add(btnCrearColeccion);

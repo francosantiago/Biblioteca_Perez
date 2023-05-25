@@ -2,13 +2,15 @@ package vista;
 
 import javax.swing.JFrame;
 
-public class VentanaPrincipal extends JFrame {
+public class VentanaPrincipal extends JFrame 
+{
         public PanelEntrada miPanelEntrada;
         public PanelProceso miPanelProceso;
         public PanelSalida miPanelSalida;
         public DialogoLibroColeccion miDialogoLibroColeccion;
 
-        public VentanaPrincipal() {
+        public VentanaPrincipal() 
+        {
                 miPanelEntrada = new PanelEntrada();
                 miPanelEntrada.setBounds(10, 10, 530, 220);
 
@@ -30,7 +32,8 @@ public class VentanaPrincipal extends JFrame {
                 this.add(miPanelSalida);
         }
 
-        public void crearDialogoLibroColeccion() {
+        public void crearDialogoLibroColeccion() 
+        {
                 miDialogoLibroColeccion = new DialogoLibroColeccion();
         }
 }

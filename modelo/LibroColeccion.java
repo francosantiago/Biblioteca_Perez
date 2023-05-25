@@ -1,6 +1,7 @@
 package modelo;
 
-public class LibroColeccion extends Libro {
+public class LibroColeccion extends Libro 
+{
         private String nombreColecccion;
         private Integer numeroColeccion;
 
@@ -11,24 +12,29 @@ public class LibroColeccion extends Libro {
                 this.numeroColeccion = numeroColeccion;
         }
 
-        public String getNombreColecccion() {
+        public String getNombreColecccion() 
+        {
                 return nombreColecccion;
         }
 
-        public Integer getNumeroColeccion() {
+        public Integer getNumeroColeccion() 
+        {
                 return numeroColeccion;
         }
 
-        public void setNombreColecccion(String nombreColecccion) {
+        public void setNombreColecccion(String nombreColecccion) 
+        {
                 this.nombreColecccion = nombreColecccion;
         }
 
-        public void setNumeroColeccion(Integer numeroColeccion) {
+        public void setNumeroColeccion(Integer numeroColeccion) 
+        {
                 this.numeroColeccion = numeroColeccion;
         }
 
         @Override
-        public String toString() {
+        public String toString() 
+        {
                 return "\nNombre: " + nombreLibro + "\nAutores: " + nombreAutores + "\nAño: " + anioEdicion
                                 + "\nEdición de lujo: " + libroDeLujo + "\nNombre de colección: " + nombreColecccion
                                 + "\nNúmero de colección: " + numeroColeccion + "\n";

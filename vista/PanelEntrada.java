@@ -90,7 +90,7 @@ public class PanelEntrada extends JPanel {
                 lbLogo.setBounds(35, 50, 160, 160);
 
                 this.setLayout(null);
-                this.setBackground(Color.decode("#eac435"));
+                this.setBackground(Color.decode("#915e06"));
                 this.setVisible(true);
                 this.add(lbTitulo);
                 this.add(lbNombreLibro);
