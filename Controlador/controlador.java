@@ -16,7 +16,6 @@ public class controlador implements ActionListener
         this.venPrin = pVenPrin;
         this.biblioteca = pBiblio;
         this.venPrin.miPanelOperaciones.agregarOyentesBotones(this);
-        this.venPrin.miPanelResultados.mostrarResultado("Funciona :D");
     }
 
     @Override
