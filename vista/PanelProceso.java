@@ -1,4 +1,4 @@
-package view;
+package vista;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;

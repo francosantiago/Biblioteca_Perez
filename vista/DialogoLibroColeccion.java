@@ -1,4 +1,4 @@
-package view;
+package vista;
 
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;

@@ -1,9 +1,10 @@
-package model;
+package modelo;
 
-import view.PanelSalida;
+import vista.PanelSalida;
 import java.util.ArrayList;
 
-public class Biblioteca {
+public class Biblioteca 
+{
         private ArrayList<Libro> librosBiblioteca;
 
         public Biblioteca(ArrayList<Libro> librosBiblioteca) {

@@ -1,4 +1,4 @@
-package model;
+package modelo;
 
 public class Libro {
         protected String nombreLibro;
