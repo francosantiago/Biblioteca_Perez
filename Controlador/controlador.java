@@ -1,13 +1,13 @@
-package CasoBiblioteca.controlador;
+package BIBLIOTECA_PEREZ.controlador;
 
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import CasoBiblioteca.modelo.Biblioteca;
-import CasoBiblioteca.vista.VentanaPrincipal;
+import BIBLIOTECA_PEREZ.modelo.Biblioteca;
+import BIBLIOTECA_PEREZ.vista.VentanaPrincipal;
 
-public class Controlador implements ActionListener
+public class controlador implements ActionListener
 {
     //------------------
     //Atributos
