@@ -1,54 +1,36 @@
-package vista;
+package view;
 
 import javax.swing.JFrame;
 
-public class VentanaPrincipal extends JFrame
-{
-    
-    public PanelEntradaDatos miPanelEntradaDatos;
-    public PanelOperaciones miPanelOperaciones;
-    public PanelResultados miPanelResultados;
-    public DialogoAgregarAColeccion miColeccion;
-    public DialogoAgregarLibro miLibro;
+public class VentanaPrincipal extends JFrame {
+        public PanelEntrada miPanelEntrada;
+        public PanelProceso miPanelProceso;
+        public PanelSalida miPanelSalida;
+        public DialogoLibroColeccion miDialogoLibroColeccion;
 
-    
-    
-    public VentanaPrincipal()
-    {
-        
-        this.setLayout(null);
+        public VentanaPrincipal() {
+                miPanelEntrada = new PanelEntrada();
+                miPanelEntrada.setBounds(10, 10, 530, 220);
 
-        
-        miPanelEntradaDatos = new PanelEntradaDatos();
-        miPanelEntradaDatos.setBounds(10,10,380,190);
-        this.add(miPanelEntradaDatos);
+                miPanelProceso = new PanelProceso();
+                miPanelProceso.setBounds(10, 240, 530, 80);
 
-        
-        miPanelOperaciones = new PanelOperaciones();
-        miPanelOperaciones.setBounds(10,220,380,120);
-        this.add(miPanelOperaciones);
+                miPanelSalida = new PanelSalida();
+                miPanelSalida.setBounds(10, 330, 530, 160);
 
-        
-        miPanelResultados = new PanelResultados();
-        miPanelResultados.setBounds(10,350,380,190);
-        this.add(miPanelResultados);
+                this.setTitle("Biblioteca señor Pérez");
+                this.setSize(558, 532);
+                this.setResizable(false);
+                this.setLocationRelativeTo(null);
+                this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+                this.setVisible(true);
+                this.setLayout(null);
+                this.add(miPanelEntrada);
+                this.add(miPanelProceso);
+                this.add(miPanelSalida);
+        }
 
-        
-        this.setTitle("Biblioteca Sr. Pérez");
-        this.setSize(400,600);
-        this.setLocationRelativeTo(null);
-        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        this.setResizable(false);
-        this.setVisible(true);
-    }
-    public void crearDialogoAgregarColeccion()
-    {
-        miColeccion = new DialogoAgregarAColeccion();
-    }
-
-    
-    public void crearDialogoAgregarLibro()
-    {
-        miLibro = new DialogoAgregarLibro();
-    }
+        public void crearDialogoLibroColeccion() {
+                miDialogoLibroColeccion = new DialogoLibroColeccion();
+        }
 }
