@@ -16,4 +16,6 @@ se debe crear una clase madre que conoceremos como libro la cual va a tener algu
     -Ediciones de lujo que hacen parte de colecciones.
 
 
+![CasoBibliotecaHerencia](https://github.com/francosantiago/Caso_Biblioteca/assets/102566762/9304e601-dd6d-4a53-bd07-338408540084)
+
 
