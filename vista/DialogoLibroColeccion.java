@@ -54,13 +54,13 @@ public class DialogoLibroColeccion extends JDialog
                 bgEsLibroDeLujo = new ButtonGroup();
 
                 rbEsLibroDeLujo = new JRadioButton("Sí");
-                rbEsLibroDeLujo.setFont(new Font("Serif", Font.PLAIN, 18));
+                rbEsLibroDeLujo.setFont(new Font("Arial", Font.PLAIN, 18));
                 rbEsLibroDeLujo.setBackground(Color.decode("#eac435"));
                 rbEsLibroDeLujo.setBounds(150, 130, 50, 30);
                 bgEsLibroDeLujo.add(rbEsLibroDeLujo);
 
                 rbNoEsLibroDeLujo = new JRadioButton("No");
-                rbNoEsLibroDeLujo.setFont(new Font("Serif", Font.PLAIN, 18));
+                rbNoEsLibroDeLujo.setFont(new Font("Arial", Font.PLAIN, 18));
                 rbNoEsLibroDeLujo.setBackground(Color.decode("#eac435"));
                 rbNoEsLibroDeLujo.setBounds(200, 130, 50, 30);
                 bgEsLibroDeLujo.add(rbNoEsLibroDeLujo);
