@@ -1,4 +1,4 @@
-package CasoBiblioteca.vista;
+package Caso_Biblioteca.vista;
 
 import java.awt.Color;
 import javax.swing.BorderFactory;

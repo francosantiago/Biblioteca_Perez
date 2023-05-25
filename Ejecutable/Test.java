@@ -1,8 +1,8 @@
-package CasoBiblioteca.ejecutable;
+package Caso_Biblioteca.ejecutable;
 
-import CasoBiblioteca.controlador.Controlador;
-import CasoBiblioteca.modelo.Biblioteca;
-import CasoBiblioteca.vista.VentanaPrincipal;
+import Caso_Biblioteca.controlador.Controlador;
+import Caso_Biblioteca.modelo.Biblioteca;
+import Caso_Biblioteca.vista.VentanaPrincipal;
 
 public class Test 
 {
